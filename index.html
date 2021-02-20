@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Bootstrap 实例</title>
+  <title>测试之家</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
   <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  </style>
 </head>
 <body>
+
+
 
 <div class="jumbotron text-center">
   <h1>雷子的测试空间</h1>
@@ -18,20 +27,38 @@
  
 <div class="container">
   <div class="row">
-    <div class="col-sm-4">
-      <h3>功能测试</h3>
+    <div class="col-sm-3">
+      <h3>功能测试<span class="badge badge-success">LEIZI</span></h3>
       <p>学的不仅是技术，更是梦想！！！</p>
+	  <a href="#" class="text-muted">理论储备</a>
     </div>
-    <div class="col-sm-4">
+    <div class="col-sm-3">
       <h3>性能测试</h3>
+	  <a href="#" data-toggle="tooltip" data-placement="top" title="必要性，是否有做性能测试的必要（关键项评估）
+	  1、主管部门、监管部门审查;
+	  2、涉及生命财产安全;
+	  3、大型新系统;
+	  4、核心系统;
+	  5、架构调整;
+	  6、业务剧增;
+	  7、重大缺陷修复;">性能测试的前提</a>
+	  <a href="#" data-toggle="tooltip" data-placement="top" title="
+	  1、一般有需求文档，根据老板或者产品提出的需求，我们需要将里面的需求内容量化为性能指标值，这是我们的性能指标预期结果；
+    2、如果无法量化的话，我们就没有预期性能指标值，在性能测试中测出的性能指标值，没有可对比的值，那就不知道是否满足需求的需要；">可测性，可量化为性能指标值</a>
+	  <a href="#" data-toggle="tooltip" data-placement="top" title="">开展性能测试必备条件</a>
+	  <a href="#" data-toggle="tooltip" data-placement="top" title=""></a>'
+	  <a href="#" data-toggle="tooltip" data-placement="top" title=""></a>
+	  <a href="#" data-toggle="tooltip" data-placement="top" title=""></a>
+    </div>
+    <div class="col-sm-3">
+      <h3>自动化测试</h3> 
       <p>学的不仅是技术，更是梦想！！！</p>
     </div>
-    <div class="col-sm-4">
-      <h3>自动化测试</h3> 
+	<div class="col-sm-3">
+      <h3>安全测试</h3>
       <p>学的不仅是技术，更是梦想！！！</p>
     </div>
   </div>
 </div>
-
 </body>
 </html>
